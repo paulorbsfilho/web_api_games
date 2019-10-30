@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bdaa3f7f-0ddd-4358-8169-7611a28b9211" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/games/migrations/0002_auto_20191030_1711.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/20099c91-f8a8-4232-82d4-2fec0314fbd8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/20099c91-f8a8-4232-82d4-2fec0314fbd8.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/games/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/games/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/games/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/games/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/games/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/games/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/games/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/games/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/games/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_api/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +116,7 @@
       <workItem from="1550091069535" duration="1859000" />
       <workItem from="1569519829435" duration="4489000" />
       <workItem from="1570044980620" duration="4762000" />
-      <workItem from="1572448310981" duration="8680000" />
+      <workItem from="1572448310981" duration="9776000" />
     </task>
     <task id="LOCAL-00001" summary="Finalização exercício Api validações">
       <created>1570048098948</created>
@@ -140,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570050883233</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update Api jogos">
+      <created>1572458402254</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572458402254</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +160,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finalização exercício Api validações" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalização exercício Api validações" />
+    <MESSAGE value="Update Api jogos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Api jogos" />
   </component>
 </project>
