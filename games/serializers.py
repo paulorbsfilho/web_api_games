@@ -1,4 +1,3 @@
-from django.utils import timezone
 from rest_framework import serializers
 from rest_framework.validators import UniqueTogetherValidator
 
@@ -10,7 +9,7 @@ class GameSerializer(serializers.HyperlinkedModelSerializer):
 
     class Meta:
         model = Game
-        fields = ('url', 'name', 'release_date', 'game_category', 'played',)
+        fields = ('name', 'release_date', 'game_category', 'played',)
         validators = [
             UniqueTogetherValidator(
                 queryset=Game.objects.all(),
@@ -18,16 +17,17 @@ class GameSerializer(serializers.HyperlinkedModelSerializer):
             )
         ]
 
-    def validate_release_date(self, date):
-        if date <= timezone.now():
-            raise serializers.ValidationError("this game cant\'t be deleted. It\'s has been released.")
-        return date
+    ## validacao de data de lancamento
+    # def validate_release_date(self, date):
+    #     if date <= timezone.now():
+    #         raise serializers.ValidationError("this game cant\'t be deleted. It\'s has been released.")
+    #     return date
 
 
 class GameCategorySerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = GameCategory
-        fields = ('url', 'pk', 'name', 'games',)
+        fields = ('pk', 'name', 'games',)
 
 
 class ScoreSerializer(serializers.HyperlinkedModelSerializer):
@@ -36,7 +36,7 @@ class ScoreSerializer(serializers.HyperlinkedModelSerializer):
 
     class Meta:
         model = Score
-        fields = ('url', 'score', 'score_date', 'game', 'player',)
+        fields = ('score', 'score_date', 'game', 'player',)
 
 
 class PlayerSerializer(serializers.HyperlinkedModelSerializer):
